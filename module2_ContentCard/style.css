@@ -1,0 +1,39 @@
+/* ID selector */
+#profile-card {
+  width: 400px;
+  border: 2px solid #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 60px auto;
+  background-color: #ac4f4f;
+
+  
+}
+
+/* Element selector */
+img {
+  width: 100%;
+  border-radius: 50%;
+ 
+}
+
+/* Class selectors */
+.profile-info {
+  text-align: center;
+}
+
+.name {
+ 
+  color: #f2e8e8;
+  
+}
+
+.bio {
+  
+  color: #0c0a0a;
+}
+
+/* Combinator selector: descendant */ 
+#profile-card .bio {
+  font-style: italic;
+}
