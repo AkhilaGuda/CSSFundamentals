@@ -9,22 +9,28 @@ h1{
 }
 body{
     background-color: rgb(13, 13, 13);
+    padding: 20px;
 }
 .blog-post{
-    color: aliceblue;
+    
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 .AI-img{
     height: 450px;
+    width: 600px;
+    border-color: rgb(211, 219, 225);
+    border-radius: 20%;
 }
 .intro{
     font-size: 20px;
     line-height:1cm;
     text-align: center;
+    color: aliceblue;
 }
 .content{
+    color: aliceblue;
     text-align: center;
 }
 .content h2{
