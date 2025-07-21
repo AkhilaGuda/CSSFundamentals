@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Activities</title>
+  
+    <style>
+        h1 {
+            text-align: center;
+            color: darkred;
+        }
+
+        #nav-bar {
+            background-color: rgb(150, 107, 107);
+            padding: 20px 20px;
+        }
+
+        .list {
+            color: aliceblue;
+            justify-content: center;
+        }
+
+        .list li a {
+            font-style: italic;
+            color: beige;
+        }
+    </style>
 </head>
+
 <body>
     <h1> welcome to CSS Activities</h1>
-    <nav>
-        <ol>
+    <nav id="nav-bar">
+        <ol class="list">
             <li><a href="module1_foundation/welcome-page.html">Ways of Styling</a></li>
+            <span style="padding:1px;"></span>
             <li><a href="module2_ContentCard/contentCard.html">Profile Card</a></li>
         </ol>
-        
+
     </nav>
-    
+
 </body>
+
 </html>
