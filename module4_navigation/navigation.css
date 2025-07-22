@@ -1,15 +1,15 @@
-
 body {
   font-family: Arial, sans-serif;
 }
 
 
-.navbar {
+.nav-bar {
   background-color: #333;
-  position: fixed; 
-  top: 0; /* sticking to the top*/
+  position: fixed;
+  top: 0;
+  /* sticking to the top*/
   width: 100%;
-  
+
 }
 
 
@@ -17,8 +17,10 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex; /* Arrange items side by side */
-  justify-content: center; /* Center items horizontally */
+  display: flex;
+  /* Arrange items side by side */
+  justify-content: center;
+  /* Center items horizontally */
 }
 
 
@@ -31,8 +33,9 @@ body {
   display: block;
   padding: 15px 20px;
   color: white;
-  text-decoration: none; /*it removes underline for links*/
-  
+  text-decoration: none;
+  /*it removes underline for links*/
+
 }
 
 .nav-links a:hover {

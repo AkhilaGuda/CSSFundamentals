@@ -1,24 +1,23 @@
+h1 {
+    text-align: center;
+    color: darkred;
+}
 
-        h1 {
-            text-align: center;
-            color: darkred;
-        }
+#nav-bar {
+    background-color: rgb(150, 107, 107);
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
 
-        #nav-bar {
-            background-color: rgb(150, 107, 107);
-            padding: 20px 20px; 
-            display: flex;
-            justify-content: center;
-        }
+.list {
+    color: aliceblue;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
 
-        .list {
-            color: aliceblue;
-            justify-content: center;
-            font-family: sans-serif;
-            font-size: 25px;
-        }
-
-        .list li a {
-            font-style: italic;
-            color: beige;   
-        }
+.list li a {
+    font-style: italic;
+    color: beige;
+}
