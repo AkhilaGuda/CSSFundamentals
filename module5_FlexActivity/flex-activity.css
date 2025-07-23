@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+.main{
+    background-color: rgb(192, 242, 242);
+    margin : 0;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap:17px;
+}
+.gallery img{
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px ;
+    
+}
